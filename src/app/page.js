@@ -13,7 +13,7 @@ import { HiMiniSpeakerWave } from "react-icons/hi2";
 
 const Lemmikud = () => {
   return (
-    <div className="container">
+    <div className="leekmuid-container">
       {/* Header Section */}
       <header className="header">
         <div className="header-logo">
@@ -153,7 +153,7 @@ const Lemmikud = () => {
         <div className="nav-item"><CiSearch className="nav-icon" /><span>Otsing</span></div>
         <div className="nav-item"><GoHeart className="nav-icon" /><span>Lemmikud</span></div>
         <div className="nav-item"> <img src="/Esindued.svg" alt="Esindued" className="nav-icon" /><span>Esindused</span></div>
-        <Link href="/profiildetails">
+        <Link href="/profiildetails" className="no-underline">
                 <div className="nav-item"><FiUser className="nav-icon" /><span>Profiil</span></div>
         </Link>
       </nav>

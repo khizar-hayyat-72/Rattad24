@@ -30,9 +30,9 @@ body {
   background-color: #fff;
 }
 
-.container {
+.leekmuid-container {
   /* padding: 10px; */
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .header,
@@ -296,12 +296,11 @@ body {
   text-align: center;
   color: gray;
   font-size: 12px;
-  text-decoration: none;
 }
-.nav-item,
-.nav-icon,
-.nav-item span{
-  text-decoration: none;
+
+
+.no-underline{
+  text-decoration:none !important;
 }
 
 .nav-icon {
