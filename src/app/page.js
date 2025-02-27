@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./globals.css";
+import Link from "next/link";
 import { FaGlobe, FaBell, FaSearch, FaHeart, FaList, FaUser } from "react-icons/fa";
 import { CiGlobe } from "react-icons/ci";
 import { BsBell } from "react-icons/bs";
@@ -152,7 +153,9 @@ const Lemmikud = () => {
         <div className="nav-item"><CiSearch className="nav-icon" /><span>Otsing</span></div>
         <div className="nav-item"><GoHeart className="nav-icon" /><span>Lemmikud</span></div>
         <div className="nav-item"> <img src="/Esindued.svg" alt="Esindued" className="nav-icon" /><span>Esindused</span></div>
-        <div className="nav-item"><FiUser className="nav-icon" /><span>Profiil</span></div>
+        <Link href="/profiildetails">
+                <div className="nav-item"><FiUser className="nav-icon" /><span>Profiil</span></div>
+        </Link>
       </nav>
     </div>
   );

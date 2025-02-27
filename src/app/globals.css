@@ -296,6 +296,12 @@ body {
   text-align: center;
   color: gray;
   font-size: 12px;
+  text-decoration: none;
+}
+.nav-item,
+.nav-icon,
+.nav-item span{
+  text-decoration: none;
 }
 
 .nav-icon {
